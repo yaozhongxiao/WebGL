@@ -20,17 +20,16 @@
             ];
             _glprogram.setVertexArray(webgl,new Float32Array(jsArrayData),3);
 
-            var jsColorData=[1.0,1.0,0.0];
-            //_glprogram.setColor(webgl, jsColorData);
+           // var jsColorData=[1.0,1.0,0.0];
+           // _glprogram.setColor(webgl, jsColorData);
 
             var jsColorArray =[
                 1.0, 0.0, 0.0,
                 0.0, 1.0, 0.0,
                 0.0, 0.0, 1.0
             ];
-            _glprogram.setColorArray(webgl, new Float32Array(jsColorArray),3);
-
-            _glprogram.draw(webgl,0,3);
+           _glprogram.setColorArray(webgl, new Float32Array(jsColorArray),3);
+           _glprogram.draw(webgl,0,3);
         }
     </script>
 </head>
